@@ -3,7 +3,7 @@ import httpx
 
 app = FastAPI()
 
-TARGET_WEBHOOK_URL = "https://7l11gvcx-8000.euw.devtunnels.ms/webhook"  # URL целевого вебхука
+TARGET_WEBHOOK_URL = "https://7l11gvcx-8000.euw.devtunnels.ms/ArendaBot/webhook"  # URL целевого вебхука
 SECRET_TOKEN = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"  # Токен проверки для Telegram
 
 @app.post("/webhook")
